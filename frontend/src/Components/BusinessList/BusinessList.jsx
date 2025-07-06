@@ -8,7 +8,7 @@ const BusinessList = () => {
   useEffect(() => {
     const fetchBusinesses = async () => {
       try {
-        const response = await fetch('http://localhost:5000/businesses');
+        const response = await fetch('https://mini-local-business-dashboard-backend.onrender.com/businesses');
         if (!response.ok) {
           throw new Error('Failed to fetch businesses');
         }
