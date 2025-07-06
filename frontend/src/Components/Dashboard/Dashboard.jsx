@@ -12,7 +12,7 @@ const Dashboard = () => {
   const [error, setError] = useState('');
   const [showList, setShowList] = useState(false);
   
-  const API_BASE_URL = 'http://localhost:5000';
+  const API_BASE_URL = 'https://mini-local-business-dashboard-backend.onrender.com';
 
   const handleChange = (e) => {
     const { name, value } = e.target;
